@@ -1,2 +1,3 @@
 # fast-markdown
-Making you edit markdown files fastly with vim.
+
+Let you use vim to quickly edit markdown files.
