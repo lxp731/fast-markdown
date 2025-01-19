@@ -5,6 +5,13 @@ Let you use vim to edit markdown files quickly.
 ### Installation
 
 ```bash
+curl -o \ 
+    $HOME/.vim/fast-markdown.vim \ 
+    https://raw.githubusercontent.com/lxp731/fast-markdown/refs/heads/main/fast-markdown.vim
+```
+
+```bash
+echo "source $HOME/.vim/fast-markdown.vim" >> $HOME/.vimrc
 ```
 
 ### Key Mappings
