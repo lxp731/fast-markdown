@@ -7,6 +7,7 @@ Let you use vim to edit markdown files quickly.
 ```bash
 curl -o \ 
     $HOME/.vim/fast-markdown.vim \ 
+    --create-dirs \ 
     https://raw.githubusercontent.com/lxp731/fast-markdown/refs/heads/main/fast-markdown.vim
 ```
 
