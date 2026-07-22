@@ -23,7 +23,7 @@
 ```bash
 curl -o $HOME/.vim/fast-markdown.vim \
      --create-dirs \
-     https://raw.githubusercontent.com/lxp731/fast-markdown/refs/heads/main/fast-markdown.vim
+     https://raw.githubusercontent.com/lxp731/fast-markdown/refs/heads/main/plugin/fast-markdown.vim
 ```
 
 然后在 `~/.vimrc` 中加入：
@@ -43,12 +43,7 @@ Plug 'lxp731/fast-markdown'
 **lazy.nvim（Neovim）：**
 
 ```lua
-{
-  'lxp731/fast-markdown',
-  init = function()
-    vim.cmd('source ' .. vim.fn.expand('~/.vim/fast-markdown.vim'))
-  end
-}
+{ 'lxp731/fast-markdown' }
 ```
 
 ## 快捷键
