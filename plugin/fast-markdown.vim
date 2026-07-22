@@ -23,11 +23,11 @@ function! CreateTable(num_cols)
   return result
 endfunction
 
-autocmd Filetype markdown inoremap ,t2 <Esc>i<C-R>=CreateTable(2)<CR><Esc>^3klc5l
-autocmd Filetype markdown inoremap ,t3 <Esc>i<C-R>=CreateTable(3)<CR><Esc>^3klc5l
-autocmd Filetype markdown inoremap ,t4 <Esc>i<C-R>=CreateTable(4)<CR><Esc>^3klc5l
-autocmd Filetype markdown inoremap ,t5 <Esc>i<C-R>=CreateTable(5)<CR><Esc>^3klc5l
-autocmd Filetype markdown inoremap ,t6 <Esc>i<C-R>=CreateTable(6)<CR><Esc>^3klc5l
+autocmd Filetype markdown inoremap ,t2 <Esc>i<C-R>=CreateTable(2)<CR><Esc>^2klc5l
+autocmd Filetype markdown inoremap ,t3 <Esc>i<C-R>=CreateTable(3)<CR><Esc>^2klc5l
+autocmd Filetype markdown inoremap ,t4 <Esc>i<C-R>=CreateTable(4)<CR><Esc>^2klc5l
+autocmd Filetype markdown inoremap ,t5 <Esc>i<C-R>=CreateTable(5)<CR><Esc>^2klc5l
+autocmd Filetype markdown inoremap ,t6 <Esc>i<C-R>=CreateTable(6)<CR><Esc>^2klc5l
 
 " autocmd Filetype markdown inoremap ,t3 \|<++>\|<++>\|<++>\|<Enter>\|:----:\|:----:\|:----:\|<Enter>\|<++>\|<++>\|<++>\|<Enter><Esc>3klc4l
 " autocmd Filetype markdown inoremap ,t2 \|<++>\|<++>\|<Enter>\|:----:\|:----:\|<Enter>\|<++>\|<++>\|<Enter><Esc>3klc4l
